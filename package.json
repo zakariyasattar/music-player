@@ -1,0 +1,22 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "main": "files/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/zakariyasattar/music-player",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^11.2.1",
+    "electron-reloader": "^1.2.0"
+  }
+}
