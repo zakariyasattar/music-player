@@ -20,6 +20,7 @@
     "electron-reloader": "^1.2.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.2"
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "loudness": "^0.4.1"
   }
 }

@@ -3,15 +3,16 @@ window.onload = function(){
 
   if(name.offsetWidth < name.scrollWidth) {
     $("#music-info").hover(function(){
-      // document.getElementById('name-scroll').style.display = "inline block";
-        // name.style.display = "none";
+        document.getElementById('name-scroll').style.display = "inline block";
+        name.style.display = "none";
 
       }, function(){
-        // name.style.display = "";
-        // document.getElementById('name-scroll').style.display = "none";
+        name.style.display = "";
     });
   }
-};
+
+  determineVolumeIcon();
+  new Audio('C:\Users\Zakariya Sattar\Downloads\MediaHuman\Music\Sosa Montana · Lil Uzi - Srt!').play()
 
 function togglePlayPause(x) {
   x.style.display = "none";
@@ -22,4 +23,8 @@ function togglePlayPause(x) {
   else {
     document.getElementById('play-button').style.display = "";
   }
+}
+
+function determineVolumeIcon() {
+
 }

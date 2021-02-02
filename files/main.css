@@ -50,5 +50,14 @@ body {
 }
 
 #name-scroll {
-  /* display: none; */
+  position: relative;
+  top: 8px;
+  start-visible: true;
+}
+
+#controls {
+  color: #707070;
+  position: fixed;
+  right: 30px;
+  bottom: 10px;
 }
