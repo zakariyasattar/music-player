@@ -14,6 +14,11 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadFile('files/index.html')
+  mainWindow.webContents.openDevTools()
+
+  let code = ``;
+  mainWindow.webContents.executeJavaScript("alert(document.getElementById('play-button'));");
+
 }
 
 // This method will be called when Electron has finished

@@ -3,10 +3,11 @@ body {
   font-family: 'Work Sans', sans-serif;
   margin: 0;
   padding: 0;
+  user-select: none;
 }
 
 #player-manager-window {
-  position: absolute;
+  position: fixed;
   background: #dedede;
   height: 40px;
   width: 100vw;
@@ -20,6 +21,34 @@ body {
   bottom: 12px;
 }
 
+#icons button {
+  border: none;
+  background: none;
+  width: 0;
+}
+
 .fa {
   margin-left: 10px;
+}
+
+#music-info {
+  position: absolute;
+  left: 30vw;
+
+  background: #ededed;
+  height: 40px;
+  width: 40vw;
+}
+
+#name {
+  bottom: 8px;
+  position: relative;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-left: 10px;
+}
+
+#name-scroll {
+  /* display: none; */
 }

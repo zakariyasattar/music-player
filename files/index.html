@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/8584285660.js"></script>
     <script src="index.js"></script>
 
@@ -18,11 +19,19 @@
     <div id="player-manager-window">
       <div id="icons">
         <i class="fa fa-backward" aria-hidden="true"></i>
-        <i class="fa fa-play" aria-hidden="true"></i>
+        <i onclick="togglePlayPause(this)" class="fa fa-play" id="play-button" aria-hidden="true"></i>
+        <i onclick="togglePlayPause(this)" class="fa fa-pause" id="pause-button" style="display: none" aria-hidden="true"></i>
         <i class="fa fa-forward" aria-hidden="true"></i>
       </div>
 
-      <center><h1 id="name"></h1></center>
+      <div id="music-info">
+        <center>
+          <p id="name">Perfume (Official Audio) *best quality*</p>
+          <marquee id="name-scroll">Perfume (Official Audio) *best quality*</marquee>
+        </center>
+      </div>
+
     </div>
   </body>
+
 </html>
