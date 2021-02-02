@@ -1,3 +1,25 @@
 body {
-  background: brown;
+  background: #fffcf5;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#player-manager-window {
+  position: absolute;
+  background: #dedede;
+  height: 40px;
+  width: 100vw;
+  bottom: 0;
+}
+
+#icons {
+  color: #707070;
+  position: fixed;
+  margin-left: 20px;
+  bottom: 12px;
+}
+
+.fa {
+  margin-left: 10px;
 }

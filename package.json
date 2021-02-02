@@ -18,5 +18,8 @@
   "devDependencies": {
     "electron": "^11.2.1",
     "electron-reloader": "^1.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2"
   }
 }

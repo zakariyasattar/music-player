@@ -14,15 +14,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadFile('files/index.html')
-
-  // Open the DevTools.
-  // mainWindow.webContents.openDevTools()
 }
-
-try {
-  require('electron-reloader')(module)
-} catch (_) {}
-
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
