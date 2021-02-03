@@ -43,6 +43,7 @@ function togglePlayPause() {
     document.getElementById('pause-button').style.display = "";
     document.getElementById('play-button').style.display = "none";
     song.play();
+    song.volume = document.getElementById("vol-control").value/100
   }
   else {
     document.getElementById('play-button').style.display = "";
