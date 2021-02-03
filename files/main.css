@@ -52,12 +52,27 @@ body {
 #name-scroll {
   position: relative;
   top: 8px;
-  start-visible: true;
 }
 
 #controls {
   color: #707070;
   position: fixed;
-  right: 30px;
+  right: 15vw;
   bottom: 10px;
+}
+
+#vol-control {
+   transform: rotate(270deg);
+   position: relative;
+   bottom: 75px;
+   right: -88px;
+   color: #707070;
+}
+
+#volume {
+  color: #707070;
+  position: fixed;
+  right: 30px;
+  bottom: 11px;
+  font-size: 18px;
 }
